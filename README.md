@@ -5,6 +5,11 @@
    - Front End: API Gateway with Nginx, Angular (client app)
    - Endpoints: root, /api, /webapi
 
+`DESCRIPTION`
+The project entails containerizing a microservice application, facilitating efficient deployment and scalability. Utilizing Docker and Docker Compose, the microservice stack includes NGINX as the API gateway, Angular for the client-side interface, Node.js and Java for backend APIs, along with MongoDB and MySQL databases. Hosted within a mono repository on GitHub, the microservices are orchestrated to work seamlessly together.
+
+The process involves writing Dockerfiles for each microservice to define their build processes and hosting configurations. Additionally, a Docker Compose file is crafted to orchestrate the containers, managing dependencies and environment variables.
+
 <h2>2. Microservices:</h2>
 
    - Client App (Angular)</b>
